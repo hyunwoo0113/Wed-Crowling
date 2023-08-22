@@ -2,9 +2,7 @@ const request = require("request");
 const cheerio = require("cheerio");
 const iconv = require("iconv-lite");
 
-const getHTML = () => {
-    console.log("getHTML function");
-};
+const index=0;
 
 const getNews = () => {
     request(
